@@ -57,7 +57,7 @@ printf $2 | cryptsetup luksOpen --allow-discards -d - ${PART[1]} root
 mkfs.fat -F 32 ${PART[0]}
 mkfs.btrfs /dev/mapper/root
 
-for i in {0..2}
+for i in 0 1
 do
   UUID[i]=$(blkid ${PART[i]} -s UUID -o value)
 done
