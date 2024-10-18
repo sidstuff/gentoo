@@ -1,0 +1,17 @@
+www-client/firefox
+kde-apps/spectacle
+kde-apps/gwenview
+kde-apps/dolphin
+kde-apps/konsole
+kde-plasma/plasma-meta
+app-editors/micro
+app-admin/sudo
+net-wireless/wpa-supplicant
+net-misc/chrony
+sys-boot/plymouth-openrc-plugin
+sys-boot/plymouth
+sys-boot/mokutil
+sys-boot/shim
+sys-boot/efibootmgr
+sys-boot/grub
+sys-kernel/linux-firmware
