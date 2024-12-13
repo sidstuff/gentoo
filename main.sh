@@ -87,7 +87,7 @@ plymouth-set-default-theme solar
 grub-install --efi-directory=/efi
 cat > /etc/default/grub << EOF
 GRUB_TIMEOUT=0
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 GRUB_GFXPAYLOAD_LINUX=keep
 EOF
 if [[ $DEVICE =~ "/dev/nvme" ]]; then echo "GRUB_CMDLINE_LINUX=\"rd.luks.allow-discards\"" >> /etc/default/grub; fi
